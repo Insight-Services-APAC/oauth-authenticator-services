@@ -7,9 +7,5 @@ namespace AuthenticatorServices.Test
 {
     public class AuthenticatorServicesTests
     {
-        [Fact]
-        public async Task Test1()
-        {
-        }
     }
 }
