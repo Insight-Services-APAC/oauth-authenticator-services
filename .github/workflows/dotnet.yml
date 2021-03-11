@@ -20,11 +20,11 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore --configuration Release
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal --configuration Release
     - name: Pack
-      run: dotnet pack --configuration Release
+      run: dotnet pack --no-build --no-restore AuthenticatorServices/AuthenticatorServices.csproj --configuration Release
     - name: Upload Artifact
       run: dotnet nuget push "AuthenticatorServices/bin/Release/Insight.AuthenticatorServices.1.0.0.nupkg" --api-key fcaefde70895e47a208e033e434f3d708a9acfc5 --source "https://nuget.pkg.github.com/Insight-Services-APAC/index.json"
       
