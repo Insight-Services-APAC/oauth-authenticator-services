@@ -4,7 +4,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<OutputType>library</OutputType>
 		<PackageId>Insight.AuthenticatorServices</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.1.*</Version>
 		<Authors>Martin Montgomery</Authors>
 		<Company>Insight</Company>
 		<PackageDescription>Complete later</PackageDescription>
