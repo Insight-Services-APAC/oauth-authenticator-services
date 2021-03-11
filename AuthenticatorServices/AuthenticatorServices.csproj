@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
+    <BumpPatch>true</BumpPatch>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<OutputType>library</OutputType>
 		<PackageId>Insight.AuthenticatorServices</PackageId>
-		<Version>1.1.0</Version>
+		<Version>1.1.2</Version>
 		<Authors>Martin Montgomery</Authors>
 		<Company>Insight</Company>
 		<PackageDescription>Complete later</PackageDescription>
