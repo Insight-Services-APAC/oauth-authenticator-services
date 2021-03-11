@@ -1,0 +1,16 @@
+﻿{
+  "AppSettings": {
+    "AuthorizationSettings": {
+      "Settings": [
+        {
+          "AuthorizationUrl":
+            "https://login.microsoftonline.com/oauth2/v2.0/token",
+          "Endpoint": "http://google.com",
+          "Scopes": ".default",
+          "ClientId": "*************************************",
+          "ClientSecret": "*********************************"
+        }
+      ]
+    }
+  }
+}
