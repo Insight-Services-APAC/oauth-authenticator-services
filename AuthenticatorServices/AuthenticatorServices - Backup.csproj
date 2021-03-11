@@ -4,7 +4,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<OutputType>library</OutputType>
 		<PackageId>Insight.AuthenticatorServices</PackageId>
-		<Version>1.1.0</Version>
+		<Version>1.1.1</Version>
 		<Authors>Martin Montgomery</Authors>
 		<Company>Insight</Company>
 		<PackageDescription>Complete later</PackageDescription>
@@ -13,13 +13,13 @@
 
   <ItemGroup>
     <PackageReference Include="IdentityModel" Version="5.0.1" />
-    <PackageReference Include="Ivy.Versioning" Version="3.1.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
 	<PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+    <PackageReference Include="MSBump" Version="2.3.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup> 
 
   <ItemGroup>
